@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import cric_image from '/images/cricket_img.avif';
 
 
 import './App.css'
@@ -56,7 +57,7 @@ function App() {
 
     
     <div className="md:block hidden w-1/2">
-      <img className="rounded-2xl" src="/public/cricket_img.avif"/>
+      <img className="rounded-2xl" src={cric_image}/>
     </div>
   </div>
 </section>
