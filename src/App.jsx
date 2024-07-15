@@ -56,7 +56,7 @@ function App() {
 
     
     <div className="md:block hidden w-1/2">
-      <img className="rounded-2xl" src="cricket_img.avif"/>
+      <img className="rounded-2xl" src="/public/cricket_img.avif"/>
     </div>
   </div>
 </section>
